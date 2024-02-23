@@ -33,3 +33,11 @@
     align-items: center;
     height: 100vh;
 }
+
+.cart-footer-price span{
+    color: #671564;
+}
+
+.hh1{
+    color: #671564;
+}

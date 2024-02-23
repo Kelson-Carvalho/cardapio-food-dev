@@ -24,7 +24,7 @@ function ProdutoVitrine(props) {
         <img src={props.foto} alt="Foto do item do produto" />
 
         <div>
-          <h2>{props.nome}</h2>
+          <h2 className="produto-box-nome">{props.nome}</h2>
           <p className="product-vitri-description">{props.descricao}</p>
           <p className="product-vitri-price">
             {new Intl.NumberFormat("pt-BR", {

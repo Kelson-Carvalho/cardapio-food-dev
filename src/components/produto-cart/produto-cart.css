@@ -1,5 +1,5 @@
 .product-cart-box {
-  border: 1px solid #e9e9e9;
+  border: 1px solid #671564;
   padding: 10px;
   display: flex;
   margin: 20px;
@@ -13,10 +13,11 @@
 
 .produtc-cart-name {
   margin: 10px 3px 0px 0px;
+  color: #671564;
 }
 
 .produtc-cart-price {
-  color: #7c7a7a;
+  color: #AB3EBD;
   font-size: 0.9rem;
   margin: 0px 3px 10px 0px;
 }
@@ -31,7 +32,7 @@
 }
 
 .product-footer-btn{
-    border: 1px solid #CACACA;
+    border: 1px solid #AB3EBD;
     padding: 10px 10px;
     border-radius: 0px;
     background-color: #FFFFFF;
@@ -43,7 +44,7 @@
 }
 
 .product-footer-price{
-    color: #E84F3D;
+    color: #AB3EBD;
     font-size: 1.2rem;
     font-weight: bold;
     line-height: 1rem;

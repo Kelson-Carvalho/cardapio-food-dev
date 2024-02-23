@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useState } from "react";
 
 const CartContext = createContext();
 
@@ -15,7 +15,7 @@ function CartProvider(props){
         for(var prod of cartItems){
 
             // encontrou o item
-            if(prod.id == item.id){
+            if(prod.id === item.id){
                 item.qtd = prod.qtd + 1;
                 findItem = true;
                 cartItemsNovo.push(item);
@@ -25,7 +25,7 @@ function CartProvider(props){
         }
 
         // se nao encontrou o item ou se for o primeiro item a ser adicionado
-        if((findItem == false) || (cartItems.length == 0)){
+        if((findItem === false) || (cartItems.length === 0)){
             cartItemsNovo.push(item);
         }
 
@@ -41,7 +41,7 @@ function CartProvider(props){
         for(var prod of cartItems){
 
             // encontrou o item
-            if(prod.id == id){
+            if(prod.id === id){
                 prod.qtd = prod.qtd - 1;
             }
 

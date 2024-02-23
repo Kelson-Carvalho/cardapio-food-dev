@@ -25,7 +25,7 @@ function Home() {
           <h1>Nosso Cardápio</h1>
           <p className="subtitulo">
             Clique em adicionar para colocar os produtos na sacola de compra. Se
-            preferir, você pode pedir pelo whatsapp: (61) 99666-4956.
+            preferir, você pode pedir pelo whatsapp: (61) 99999-9999.
           </p>
         </div>
       </section>

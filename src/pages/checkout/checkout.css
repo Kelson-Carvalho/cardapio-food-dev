@@ -8,10 +8,12 @@
 
 .checkout-box h3{
     margin-top: 0px;
+    color: #671564;
 }
 
 .checkout-box p{
     margin: 0px;
+    color: #671564;
 }
 
 .checkout-valor{
@@ -21,4 +23,12 @@
 
 .checkout-button{
     margin-top: 170px;
+}
+
+.checkout-valor span{
+    color: #671564;
+}
+
+.checkout-valor strong{
+    color: #671564;
 }

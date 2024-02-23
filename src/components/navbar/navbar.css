@@ -7,7 +7,7 @@
 }
 
 .logotipo {
-  max-width: 249px;
+  max-width: 180px;
   width: 15%;
   padding: 10px 10px 10px 20px;
 }
@@ -23,5 +23,6 @@
 }
 
 .menu a:hover {
-  color: #d24434;
+  color: #671564;
+  text-decoration: underline;
 }

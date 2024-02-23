@@ -34,7 +34,7 @@ function Cart() {
         setShow(visible);
       }}
     >
-      {cartItems == 0 ? (
+      {cartItems === 0 ? (
         <div className="cart-empty">
           <img
             onClick={(e) => setShow(false)}
@@ -56,7 +56,7 @@ function Cart() {
               className="cart-btn-close"
               alt="botao fecha cart"
             />
-            <h1>Meu Pedido</h1>
+            <h1 className="hh1">Meu Pedido</h1>
           </div>
 
           <div className="product-list">

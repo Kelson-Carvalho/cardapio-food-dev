@@ -5,6 +5,10 @@
     margin-bottom: 30px;
 }
 
+td strong {
+    color: #671564;
+}
+
 @media screen and (max-width: 700px){
     .pedido-box{
         font-size: 0.9rem;
